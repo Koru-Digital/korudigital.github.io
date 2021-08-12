@@ -1,13 +1,16 @@
 {
-  "name": "~TODO~",
+  "name": "Koru Digital",
   "version": "0.0.1",
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
-    "preview": "svelte-kit preview"
+    "preview": "svelte-kit preview",
+    "deploy": "node ./scripts/gh-pages.js"
   },
   "devDependencies": {
+    "@sveltejs/adapter-static": "^1.0.0-next.16",
     "@sveltejs/kit": "next",
+    "gh-pages": "^3.2.3",
     "svelte": "^3.34.0"
   },
   "type": "module"
