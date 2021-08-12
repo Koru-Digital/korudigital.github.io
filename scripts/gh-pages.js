@@ -10,7 +10,7 @@ const fs = require("fs");
     console.log("Building...");
     await execa("npm", ["run", "build"]);
     // Understand if it's dist or build folder
-    const folderName = "public";
+    const folderName = "build";
     await execa("git", ["--work-tree", folderName, "add", "--all"]);
     await execa("git", ["--work-tree", folderName, "commit", "-m", "gh-pages"]);
     console.log("Pushing to gh-pages...");
