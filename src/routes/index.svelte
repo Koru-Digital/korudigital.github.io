@@ -1,3 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-<p>This is a test for Bash to see</p>
+<img src="/koru-digital-port-blk.png" alt="Koru Digital" />
+
+<style>
+  img {
+    display: block;
+    max-width: 20rem;
+    margin: auto;
+  }
+</style>
