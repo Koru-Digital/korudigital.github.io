@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>Koru Digital</title>
+</svelte:head>
+
 <img src="/koru-digital-port-blk.png" alt="Koru Digital" />
 
 <style>
