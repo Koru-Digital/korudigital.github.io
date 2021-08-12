@@ -1,17 +1,23 @@
-import { publish } from 'gh-pages';
+const execa = require("execa");
+  const fs = require("fs");
 
-publish(
-  'build', // path to public directory
-  {
-    branch: 'gh-pages',
-    repo: 'https://github.com/korudigital/korudigital.github.io.git', // Update to point to your repository
-    user: {
-      name: 'kiwimind', // update to use your name
-      email: 'glenn@dudeshouse.com' // Update to use your email
-    },
-    dotfiles: true
-  },
-  () => {
-    console.log('Deploy Complete!');
-  }
-);
+  (async () => {
+    try {
+      await execa("git", ["checkout", "--orphan", "gh-pages"]);
+      console.log("Building...");
+      await execa("npm", ["run", "build"]);
+      // Understand if it's dist or build folder
+      const folderName = "public";
+      await execa("git", ["--work-tree", folderName, "add", "--all"]);
+      await execa("git", ["--work-tree", folderName, "commit", "-m", "gh-pages"]);
+      console.log("Pushing to gh-pages...");
+      await execa("git", ["push", "origin", "HEAD:gh-pages", "--force"]);
+      await execa("rm", ["-r", folderName]);
+      await execa("git", ["checkout", "-f", "main"]);
+      await execa("git", ["branch", "-D", "gh-pages"]);
+      console.log("Successfully deployed");
+    } catch (e) {
+      console.log(e.message);
+      process.exit(1);
+    }
+  })();
