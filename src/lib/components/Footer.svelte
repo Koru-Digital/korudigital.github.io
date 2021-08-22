@@ -10,9 +10,9 @@
 <style>
   footer {
     margin-top: auto;
-    background-color: rgb(30, 34, 30);
+    background-color: rgb(34, 32, 30);
     padding: 3rem 0;
-    border-top: 2px solid black;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
   }
   .credit {
     font-size: 75%;
