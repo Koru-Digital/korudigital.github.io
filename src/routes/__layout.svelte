@@ -3,7 +3,8 @@
 </script>
 
 <svelte:head>
-  <title>Glenn Barr | Koru Digital</title>
+  <title>Koru Digital | Glenn Bar - Front end web developer</title>
+  <meta name="description" content="Front end web developer experienced in a range of roles. Based near Bristol in the South West of England.">
 </svelte:head>
 
 <slot></slot>
