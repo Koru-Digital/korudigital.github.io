@@ -3,7 +3,7 @@
     <p>Contact: <a href="mailto:glenn@korudigital.co.uk">glenn@korudigital.co.uk</a></p>
     <p><a href="https://www.linkedin.com/in/-glenn-barr-/">LinkedIn</a></p>
 
-    <p class="credit">Massive thanks to Snowy for the amazing logo, created in circa 2009.</p>
+    <p class="credit">Massive thanks to Snowy for the amazing logo created circa 2009, and to Lex for the more recent tweaks.</p>
   </div>
 </footer>
 
