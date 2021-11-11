@@ -6,7 +6,7 @@
 
   <hr />
 
-  <h2>Hi, I'm Glenn.</h2>
+  <h2>Kia ora<a href="#f1" class="footnote">#</a>, I'm Glenn.</h2>
   <p>I'm a front end web developer with over 14 years industry experience.</p>
   <p>I've worked with PR agencies, web agencies as well as in-house in a range of roles.</p>
   <p>I'm based near Bristol in the South West of England, however am only considering fully remote work at this time.</p>
@@ -15,21 +15,27 @@
 
   <h2>What I can do for you</h2>
   <ul>
+    <li>If you've got ideas or designs that you need delivered digitally, I'm able to help you realise your goals.</li>
     <li>I've specialised in Drupal site building and theming for over 14 years, and am able to turn my hand to back end work as necessary.</li>
-    <li>Equally happy working as part of a team or left to my own devices, I'm happy problem solving or pairing with others.</li>
-    <li>I've experience mentoring and teaching, having interviewed and hired apprentices, and helped them on their journey towards becoming developers.</li>
+    <li>Equally happy working as part of a team or left to my own devices, I'm comfortable problem solving independently or pairing with others.</li>
+    <li>I have experience mentoring and teaching, having interviewed and hired apprentices and helped them on their journey towards becoming developers.</li>
   </ul>
 
   <hr />
 
   <h2>Why Koru</h2>
-  <p><a href="https://en.wikipedia.org/wiki/Koru">Koru</a> is a Māori word, symbolising new life, growth, strength and peace. Being from New Zealand, I thought this was a fitting emblem, with no small amount of significance. There's a koru on the bone carving I wear too.</p>
+  <p><a href="https://en.wikipedia.org/wiki/Koru" title="Wikipedia link that helps describe what a koru is">Koru</a> is a Māori word, symbolising new life, growth, strength and peace. Being from New Zealand, I thought this was a fitting emblem, with no small amount of significance. There's a koru on the bone carving I wear too.</p>
 
   <hr />
 
   <h2>Relevant certification</h2>
   <p>Scrum Alliance Certified Scrum Master (lapsed)</p>
   <p>Mental Health First Aider (MFHA England) (lapsed)</p>
+
+  <hr />
+
+  <h3>Footnotes</h3>
+  <p id="f1"><a href="https://www.youtube.com/watch?v=zVDu0tJHTnY" title="Link to YouTube to explain kia ora">Kia ora</a></p>
 </div>
 
 <style>
@@ -72,5 +78,10 @@
     position: absolute;
     white-space: nowrap;
     width: 1px;
+  }
+  .footnote {
+    font-size: 0.5em;
+    vertical-align: super;
+    font-weight: normal;
   }
 </style>
