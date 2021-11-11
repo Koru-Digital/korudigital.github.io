@@ -6,7 +6,7 @@
 
   <hr />
 
-  <h2>Kia ora<a href="#f1" class="footnote">#</a>, I'm Glenn.</h2>
+  <h2>Kia ora<a href="#f1" class="footnote">1</a>, I'm Glenn.</h2>
   <p>I'm a front end web developer with over 14 years industry experience.</p>
   <p>I've worked with PR agencies, web agencies as well as in-house in a range of roles.</p>
   <p>I'm based near Bristol in the South West of England, however am only considering fully remote work at this time.</p>
